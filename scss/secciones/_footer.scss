@@ -1,0 +1,57 @@
+@import "./variables/colores";
+@import "./variables/fuentes";
+
+/* Estilos generales del footer */
+
+footer {
+    background-color:$black;
+    color:$white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .footer-logo img {
+     max-width: 250px;
+     margin-left: 80px;
+    margin-right: 167px;
+ }
+ .footer-info {
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+     flex: 1;
+     
+ }
+
+
+ 
+ .secciones ul {
+    list-style: none;
+     padding: 0;
+     
+ }
+ .secciones h4{
+    font-size: 1.5rem;
+    color: orange;
+}
+ .secciones li {
+     margin-bottom: 5px;
+
+ }
+.secciones a:hover{
+    color: darken(#ff9500, 10%);
+}
+.secciones a {
+     color:$white;
+    text-decoration: none;
+     display: flex;
+    align-items: center;
+ }
+  
+ .secciones a i {
+    margin-right: 5px;
+ }

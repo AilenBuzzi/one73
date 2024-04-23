@@ -1,0 +1,23 @@
+@import "./variables/colores";
+@import "./variables/fuentes";
+
+.aboutContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+    flex-direction: column;
+
+
+
+    .titleAbout {
+        font-size: 2rem;
+        color: $orange;
+    }
+
+    .aboutUs {
+        color: $white;
+        width: 50%;
+        height: 300px;
+        background-color: $black;
+    }
+}
