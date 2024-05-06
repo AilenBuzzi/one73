@@ -3,10 +3,9 @@
 
 
 
-
-h5{
+.titleContact{
     color: $orange;
-    font-size: 3rem;
+    size: 3rem;
 }
 
 
@@ -25,95 +24,3 @@ h5{
 
 
 
-
-
-
-
-
-
-// section {
-//     div {
-//         h2 {
-//             text-align: center;
-//             margin-top: 3rem;
-//             margin-bottom: 4rem;
-//             font-family: $titulo;
-//             font-size: 3rem;
-//             color: $orange;
-//         }
-//     }
-
-//     div {
-//         form {
-//             display: flex;
-//             margin-top: 60px;
-//             width: 50%;
-//             align-items: stretch;
-//             flex-direction: column;
-//             margin-left: 383px;
-//             margin-bottom: 137px;
-//         }
-//     }
-
-//     div {
-//         label {
-//             font-family: $titulo;
-//             color: $orange;
-
-//         }
-
-//         input:hover {
-//             background-color: #cdd6e33b;
-//             border-color: $orange;
-//             box-shadow: none;
-
-//         }
-//     }
-
-
-//     .buttonForm {
-//         color: white;
-//         background-color: $azul;
-//         border-color: 0%;
-//         font-family: $parrafo;
-
-
-
-//     }
-
-//     .buttonForm:hover {
-//         background-color: #29261ac4;
-//     }
-
-// }
-
-
-
-
-
-
-
-// @media screen and (max-width: 768px) {
-
-
-//     /* FORMULARIO SECCION CONTACTO */
-//     .form {
-//         padding: 15px;
-//         display: flex;
-//         margin-top: -16px;
-//         width: 100%;
-//         align-items: stretch;
-//         flex-direction: column;
-//         margin-left: 2px;
-//         margin-bottom: 137px;
-//     }
-
-//     .titleForm {
-//         font-size: 2rem;
-//     }
-
-//     .form-label {
-//         font-size: 14px;
-//     }
-
-// }

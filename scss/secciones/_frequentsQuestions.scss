@@ -1,0 +1,31 @@
+@import "./variables/colores";
+@import "./variables/fuentes";
+
+
+
+.accordion {
+    width: 70%;
+    margin-left: 19%;
+}
+
+
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 1.3rem;
+    color: $black;
+    text-align: left;
+    background-color: $orange;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+
+}
+
+.accordion-item {
+    color: #212529;
+    background-color: #ffc10730;
+    border: var(--bs-accordion-border-width) solid #ff8800;
+}
