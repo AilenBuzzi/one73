@@ -13,19 +13,21 @@
 .container-fluid {
     background-color: $black;
 
+
+
 }
 
 .encabezado {
 
     .navbar {
         .navbar-nav {
-            padding-left: 64%;
-          
+            padding-left: 60%;
+
 
             li {
                 a.nav-link {
                     color: $white;
-                    font-size: 1.3rem;
+                    font-size: 1.7rem;
                 }
 
                 a:hover {
