@@ -2,25 +2,143 @@
 @import "./variables/fuentes";
 
 
+// .formContainer {
+//     margin-top: 40px;
+//     margin-bottom: 300px;
+//     width: 50%;
 
-.titleContact{
-    color: $orange;
-    size: 3rem;
+//     .contactTitle {
+//         font-size: 3rem;
+//         color: $orange;
+//         margin-bottom: 70px;
+//         text-align: center;
+//     }
+
+// }
+
+
+
+// .form {
+//     color: $orange;
+//     border-color: $orange;
+//     border: 4px;
+
+//     .name {
+//         display: flex;
+//         flex-direction: row;
+//         justify-content: space-around;
+//     }
+
+//     .containerName {
+//         margin-right: 30px;
+//         // width: 300px;
+//     }
+
+//     .form-label {
+//         margin-top: 20px;
+//         margin-bottom: 10px;
+//     }
+
+//     .mb-3 {
+//         margin-top: 20px;
+//     }
+
+//     .btn {
+//         width: 50%;
+//         margin-top: 50px;
+//         color: $white;
+//         font-size: 2, 5rem;
+//         background-color: rgba(0, 0, 0, 0.15);
+//         border-color: $orange;
+
+
+//         }
+
+//         .btn :hover {
+//             color: rgb(255, 165, 0)
+//         }
+
+
+//     }
+
+
+
+
+.formContainer {
+    margin-top: 40px;
+    margin-bottom: 300px;
+    width: 50%;
+
+    .contactTitle {
+        font-size: 3rem;
+        color: $orange;
+        margin-bottom: 70px;
+        text-align: center;
+    }
 }
 
+.form {
+    color: $form-border-color;
+    border-color: $form-border-color;
+    border: 4px;
+
+    .name {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 
 
 
+    .form-label {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .mb-3 {
+        margin-top: 20px;
+    }
 
 
+    .text {
+        height: 200px;
+    }
+
+   .form-check{
+    color: $orange;
+   }
+
+    // Contenedor del botón
+    >div:last-child {
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn {
+        width: 50%;
+        margin-top: 50px;
+        color: $white;
+        font-size: 1.5rem;
+        background-color: rgba(0, 0, 0, 0.15);
+        border-color: $orange;
+       
 
 
+        &:hover {
+            background-color: $orange;
+            color: $white;
 
+        }
+    }
+}
 
+// Estilos para los inputs del formulario
+input.form-control,
+textarea.form-control {
+    border: 2px solid $form-border-color;
 
-
-
-
-
-
-
+    &:focus {
+        border-color: $form-border-color;
+        box-shadow: 0 0 5px rgba($form-border-color, 0.5);
+    }
+}

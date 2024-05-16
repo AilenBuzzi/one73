@@ -2,12 +2,43 @@
 @import "./variables/fuentes";
 
 
+// .containerAccordion{
 
-.accordion {
-    width: 70%;
-    margin-left: 19%;
+//     position: relative;
+//     width: 100%;
+//     min-height: 100vh;
+//     background-image: url('./img/fondo circulos naranjas.jpg');
+//     background-size: cover;
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     padding: 50px;
+//     box-sizing: border-box;
+//     z-index: 1;
+
+
+// }
+
+
+.imgAccordion {
+    width: 100%;
+    height: auto;
+  
 }
 
+.questionsTitle {
+    color: $orange;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+ .accordion {
+     width: 100%;
+     margin-top: 150px;
+    margin-bottom: 200px;
+
+
+ }
 
 .accordion-button {
     position: relative;
@@ -15,9 +46,9 @@
     align-items: center;
     width: 100%;
     font-size: 1.3rem;
-    color: $black;
+    color: $orange;
     text-align: left;
-    background-color: $orange;
+    background-color: $black;
     border: 0;
     border-radius: 0;
     overflow-anchor: none;
@@ -25,7 +56,7 @@
 }
 
 .accordion-item {
-    color: #212529;
-    background-color: #ffc10730;
-    border: var(--bs-accordion-border-width) solid #ff8800;
+    color: $orange;
+    background-color: #cb141430;
+    border-color: $orange;
 }

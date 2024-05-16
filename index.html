@@ -16,7 +16,7 @@
 
 </head>
 
-<body>
+<body >
 
     <header>
         <div class="encabezado">
@@ -88,13 +88,9 @@
         <!-- Amazon -->
 
         <div class="amazonContainer">
-
-            
             <div>
                 <img class="amazon" src="./img/amazon-logo-0-2048x2048-1.png" alt="logo amazon">
-                <!-- <img src="./img/LOGOS-03.png" alt="img"> -->
 
-                
             </div>
 
             <div>
@@ -109,7 +105,7 @@
         <!-- AboutUs -->
 
         <div class="aboutContainer">
-            <img class="gifCirculos" src="./img/LOGOS-03.png" alt="gif circulo azul, naranja y amarillo"> 
+            <img class="logo" src="./img/LOGOS-03.png" alt="logo">
             <div class="aboutUs" id="about">
 
                 <h2 class="titleAbout">About Us</h2>
@@ -125,9 +121,10 @@
         <!-- Services -->
 
         <div id="services">
+
             <section class="services">
+                <h2 class="servicesTitle">Nuestros Servicios</h2>
                 <div class="container">
-                    <h2>Nuestros Servicios</h2>
                     <div class="service">
                         <div class="number">1</div>
                         <div class="info">
@@ -195,73 +192,136 @@
 
         <!-- Formulario de contacto -->
 
-        <div>
-            <h5 class="titleContact"> Contact Us</h5>
+        <div class="formContainer">
+            <h2 class="contactTitle"> Contact Us</h2>
+
+            <div class="form">
+                <div class="name">
+                    <div class="col-md-4 containerName">
+                        <label for="validationDefault01" class="form-label">First name</label>
+                        <input type="text" class="form-control" id="validationDefault01" required>
+                    </div>
+
+                    <div class="col-md-4 containerLast">
+                        <label for="validationDefault02" class="form-label">Last name</label>
+                        <input type="text" class="form-control" id="validationDefault02" required>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">You can ask your question here:</label>
+                    <textarea class="form-control text" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-primary ">Send</button>
+                </div>
+
+
+            </div>
+
+
         </div>
+
+
+
+
+
+
+        <!-- Frequent Questions -->
+
+        <div class="containerAccordion">
+            <h5 class="questionsTitle">Frequent Questions</h5>
+            <img class="imgAccordion" src="./img/fondo circulos naranjas.jpg" alt="fondos de circulos naranjas">
+
+            <div class="accordion">
+
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <strong>¿Cómo exporto mi mercadería?</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            One73 se encarga de todo, brindando un servicio de logística integral desde la puerta de tu
+                            fábrica
+                            hasta la puerta del consumidor final.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <strong>Si no tengo un deposito en EEUU, ¿debo alquilar uno?</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Por supuesto que no, dentro de nuestros servicios serán incluidos, según la estrategia de
+                            venta,
+                            los
+                            depósitos para almacenar su mercadería.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <strong>¿Cómo registro mi marca ?</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Nuestro equipo se encarga junto a nuestros abogados de realizar las diligencias necesarias.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <strong> ¿Cómo vendo en Estados Unidos?</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Esto para ti ya no es un problema, ya que tenemos la infraestructura y logística necesaria
+                            para
+                            vender en todo el territorio de Estados Unidos con una tienda oficial en Amazon con
+                            reputación
+                            impecable.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
 
     </main>
 
 
-    <!-- Frequent Questions -->
-
-    <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                    aria-expanded="true" aria-controls="collapseOne">
-                    <strong>¿Cómo exporto mi mercadería?</strong>
-                </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    One73 se encarga de todo, brindando un servicio de logística integral desde la puerta de tu fábrica
-                    hasta la puerta del consumidor final.
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    <strong>Si no tengo un deposito en EEUU, ¿debo alquilar uno?</strong>
-                </button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    Por supuesto que no, dentro de nuestros servicios serán incluidos, según la estrategia de venta, los
-                    depósitos para almacenar su mercadería.
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    <strong>¿Cómo registro mi marca ?</strong>
-                </button>
-            </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    Nuestro equipo se encarga junto a nuestros abogados de realizar las diligencias necesarias.
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    <strong> ¿Cómo vendo en Estados Unidos?</strong>
-                </button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    Esto para ti ya no es un problema, ya que tenemos la infraestructura y logística necesaria para
-                    vender en todo el territorio de Estados Unidos con una tienda oficial en Amazon con reputación
-                    impecable.
-                </div>
-            </div>
-        </div>
-    </div>
 
 
 
@@ -298,7 +358,9 @@
 
 
             </div>
-            </div>
+           <div>
+            <h4>Contact</h4>
+           </div>
 
 
 
@@ -311,6 +373,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>
