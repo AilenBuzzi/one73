@@ -12,15 +12,27 @@
 
 
 .container-fluid {
-    background-color: $black;
+background-color: $black;
+position: relative; 
 
-
-
+&::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px; 
+    background: linear-gradient(to right, $black, $orange 40%, $black); 
 }
+}
+
+
+
 
 .encabezado {
 
     .navbar {
+        padding: 0;
         .navbar-nav {
             padding-left: 60%;
 

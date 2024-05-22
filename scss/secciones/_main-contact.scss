@@ -9,7 +9,7 @@
     margin-top: 300px;
     margin-bottom: 300px;
     width: 50%;
-    padding: 20px;
+
 
     .contactTitle {
         font-size: 3rem;
@@ -46,9 +46,9 @@
         height: 200px;
     }
 
-   .form-check{
-    color: $orange;
-   }
+    .form-check {
+        color: $orange;
+    }
 
     // Contenedor del botón
 
@@ -64,7 +64,7 @@
         font-size: 1.5rem;
         background-color: rgba(0, 0, 0, 0.15);
         border-color: $orange;
-       
+
 
 
         &:hover {
