@@ -2,43 +2,51 @@
 @import "./variables/fuentes";
 
 
-// .containerAccordion{
-
-//     position: relative;
-//     width: 100%;
-//     min-height: 100vh;
-//     background-image: url('./img/fondo circulos naranjas.jpg');
-//     background-size: cover;
-//     background-position: center;
-//     background-repeat: no-repeat;
-//     padding: 50px;
-//     box-sizing: border-box;
-//     z-index: 1;
 
 
-// }
-
-
-.imgAccordion {
+.containerAccordion {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    height: auto;
-  
+    min-height: 100vh;
+    text-align: center;
+    padding: 20px;
+    z-index: 1; // Asegura que el contenido esté por encima de la sombra y el resplandor
 }
+
+
 
 .questionsTitle {
     color: $orange;
     font-size: 3rem;
-    text-align: center;
     margin-bottom: 50px;
+
 }
 
- .accordion {
-     width: 100%;
-     margin-top: 150px;
+.accordion {
+    width: 70%;
+    margin-top: 150px;
     margin-bottom: 200px;
+    z-index: 2; // Asegura que el acordeón esté por encima de la sombra y el resplandor
+    box-shadow: 0px 8px 16px $shadow-color; // Agrega una sombra debajo del acordeón
+    overflow: hidden; // Oculta cualquier desbordamiento de los elementos secundarios
+}
 
 
- }
+.accordion::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    mix-blend-mode: overlay;
+    z-index: -1;
+}
 
 .accordion-button {
     position: relative;
@@ -46,17 +54,20 @@
     align-items: center;
     width: 100%;
     font-size: 1.3rem;
-    color: $orange;
+    color: $white;
     text-align: left;
     background-color: $black;
+
     border: 0;
     border-radius: 0;
     overflow-anchor: none;
-
 }
 
+
+
+
 .accordion-item {
-    color: $orange;
-    background-color: #cb141430;
+    color: $white;
+    background-color: #ff8800;
     border-color: $orange;
 }
