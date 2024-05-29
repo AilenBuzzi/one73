@@ -98,3 +98,24 @@ footer {
         }
     }
 }
+
+// Media queries para pantallas medianas y pequeñas
+@media (max-width: 768px) {
+    footer {
+        .footer-logo {
+            img {
+                max-width: 200px; // Reduce aún más el tamaño del logo en pantallas pequeñas
+            }
+        }
+
+        
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+  
+}
+}

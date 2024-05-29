@@ -70,3 +70,24 @@
     background-color: #ff8800;
     border-color: $orange;
 }
+
+
+
+
+// Media queries para pantallas medianas y pequeñas
+@media (max-width: 768px) {
+    .questionsTitle {
+        font-size: 2rem; // Reduce el tamaño de fuente en pantallas pequeñas
+        margin-bottom: 20px; // Reduce el margen inferior en pantallas pequeñas
+    }
+
+    .accordion {
+        width: 95%; // Reduce aún más el ancho en pantallas pequeñas
+        margin-top: 80px; // Reduce el margen superior en pantallas pequeñas
+        margin-bottom: 100px; // Reduce el margen inferior en pantallas pequeñas
+    }
+
+    .accordion-button {
+        font-size: 1rem; // Reduce aún más el tamaño de fuente en pantallas pequeñas
+    }
+}

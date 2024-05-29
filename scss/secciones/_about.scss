@@ -4,6 +4,52 @@
 
 
 
+// .aboutContainer {
+//     position: relative;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     width: 100%;
+//     min-height: 100vh;
+//     margin: 0 auto;
+//     padding: 20px;
+//     overflow: hidden;
+//     background-image: url(file:///C:/Users/Ailen/OneDrive/Documentos/ONE73%20WEB/img/orange%20circle.jpg);
+//     background-position: 50%;
+//     background-size: cover;
+//     background-attachment: fixed;
+//     flex-direction: column; 
+//     text-align: center;
+// }
+
+
+
+// .aboutUs {
+//     position: relative;
+//     width: 40%;
+//     padding: 20px;
+//     z-index: 2;
+//     text-align: justify;
+// }
+
+
+
+// .titleAbout {
+//     color: $orange;
+//     font-size: 3rem;
+//     margin-bottom: 30px;
+//     text-align: center;
+// }
+
+// .textAbout {
+//     color: $white;
+//     font-size: 1.5rem;
+// }
+
+
+
+
+
 .aboutContainer {
     position: relative;
     display: flex;
@@ -18,21 +64,17 @@
     background-position: 50%;
     background-size: cover;
     background-attachment: fixed;
-    flex-direction: column; 
+    flex-direction: column;
     text-align: center;
 }
 
-
-
 .aboutUs {
     position: relative;
-    width: 40%;
+    width: 30%;
     padding: 20px;
     z-index: 2;
     text-align: justify;
 }
-    
-
 
 .titleAbout {
     color: $orange;
@@ -43,6 +85,71 @@
 
 .textAbout {
     color: $white;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
+// Media Queries
+@media (max-width: 992px) {
+    .aboutContainer {
+        padding: 10px;
+     
+    }
+
+    .aboutUs {
+        width: 60%;
+    }
+
+    .titleAbout {
+        font-size: 2.5rem;
+        margin-bottom: 25px;
+    }
+
+    .textAbout {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .aboutContainer {
+        padding: 10px;
+      
+      
+
+    }
+
+    .aboutUs {
+        width: 80%;
+    }
+
+    .titleAbout {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .textAbout {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .aboutContainer {
+        padding: 5px;
+       
+        
+
+    }
+
+    .aboutUs {
+        width: 80%;
+       
+    }
+
+    .titleAbout {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+    }
+
+    .textAbout {
+        font-size: 1rem;
+    }
+}

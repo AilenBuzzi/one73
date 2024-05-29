@@ -17,6 +17,8 @@
         margin-bottom: 70px;
         text-align: center;
     }
+
+   
 }
 
 .form {
@@ -44,6 +46,10 @@
 
     .text {
         height: 200px;
+    }
+    .form-text{
+        color: white;
+        font-size: 1rem;
     }
 
     .form-check {
@@ -84,4 +90,24 @@ textarea.form-control {
         border-color: $form-border-color;
         box-shadow: 0 0 5px rgba($form-border-color, 0.5);
     }
+}
+
+
+@media (max-width: 768px) {
+    .formContainer {
+        margin-top: 50px; // Ajusta el margen superior para pantallas medianas
+        margin-bottom: 50px; // Ajusta el margen inferior para pantallas medianas
+    }
+
+.form .name{
+    display: flex;
+    flex-direction: column;
+}
+
+.form .btn {
+    width: 100%;
+}
+
+
+
 }
